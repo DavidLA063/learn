@@ -4,7 +4,7 @@
 Console.WriteLine ("Введите число :");
 int numA = int.Parse( Console.ReadLine () );
 
-for (int i = 0; i <= numA; i=i+2)
+for (int i = 0; i <= numA; i+=2)
 {
     Console.WriteLine(i);
 }
